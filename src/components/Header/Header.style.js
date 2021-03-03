@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
         backgroundColor: Colors.BLUE,
         color: 'white',
         paddingVertical: 10,
-        paddingHorizontal: 20,
+        paddingHorizontal: 15,
     },
     name: {
         fontFamily: 'Lato Bold',

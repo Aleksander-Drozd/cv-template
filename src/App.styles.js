@@ -8,7 +8,10 @@ const styles = StyleSheet.create({
     main: {
         width: '70%',
         paddingVertical: 10,
-        paddingHorizontal: 10,
+        paddingHorizontal: 15,
+    },
+    description: {
+        fontSize: 11,
     },
     rightSide: {
         width: '30%',

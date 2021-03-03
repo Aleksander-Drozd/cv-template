@@ -1,5 +1,4 @@
 import {StyleSheet} from '@react-pdf/renderer';
-import * as Colors from '../../../const/colors';
 
 const styles = StyleSheet.create({
     wrapper: {
