@@ -8,8 +8,8 @@ const styles = StyleSheet.create({
     timespan: {
         width: '20%',
         fontFamily: 'Lato Bold',
-        lineHeight: 1.5,
-        fontSize: 11,
+        lineHeight: 1.7,
+        fontSize: 10,
     },
     details: {
         width: '80%',

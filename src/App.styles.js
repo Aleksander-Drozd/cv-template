@@ -4,6 +4,7 @@ const styles = StyleSheet.create({
     container: {
         fontSize: 12,
         flexDirection: 'row',
+        height: '100%',
     },
     main: {
         width: '70%',
@@ -16,7 +17,7 @@ const styles = StyleSheet.create({
     rightSide: {
         width: '30%',
         backgroundColor: '#f4f4f4',
-        paddingHorizontal: 10,
+        paddingHorizontal: 15,
     },
 });
 

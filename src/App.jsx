@@ -1,8 +1,7 @@
 import React from 'react';
 import {Document, Page, PDFViewer, View} from '@react-pdf/renderer';
-import {Header} from './components';
+import {Header, Experience, PersonalInfo} from './components';
 import styles from './App.styles';
-import SectionHeader from './components/common/SectionHeader/SectionHeader';
 import {AppText} from './components/common';
 
 const app = () => (
@@ -16,17 +15,17 @@ const app = () => (
                 <Header />
                 <View style={styles.container}>
                     <View style={styles.main}>
-                        <AppText>
+                        <AppText style={styles.description}>
                             Lorem ipsum dolor sit amet, consectetur adipisicing
                             elit. Animi dolorum, maxime nihil placeat quas sunt?
                             Accusantium amet eum excepturi, expedita harum
                             incidunt officia quidem quo suscipit tempore.
                             Deleniti, eveniet, quia.
                         </AppText>
-                        <SectionHeader title={'Experience'} />
+                        <Experience />
                     </View>
                     <View style={styles.rightSide}>
-                        <SectionHeader title={'Personal info'} />
+                        <PersonalInfo />
                     </View>
                 </View>
             </Page>

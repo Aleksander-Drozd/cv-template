@@ -4,7 +4,7 @@ import * as Colors from '../../../const/colors';
 const styles = StyleSheet.create({
     text: {
         fontFamily: 'Lato',
-        fontSize: 12,
+        fontSize: 11,
         color: Colors.MAIN_TEXT,
     },
 });
