@@ -1,13 +1,19 @@
 import React from 'react';
 import {Document, Page, PDFViewer, View} from '@react-pdf/renderer';
-import {Header, Experience, PersonalInfo} from './components';
+import {
+    Header,
+    Experience,
+    PersonalInfo,
+    Education,
+    Skills,
+} from './components';
 import styles from './App.styles';
 import {AppText} from './components/common';
 
 const app = () => (
     <PDFViewer
-        width={900}
-        height={2000}
+        width={1000}
+        height={1500}
         style={{margin: '0 auto', display: 'block'}}
     >
         <Document>
@@ -23,9 +29,11 @@ const app = () => (
                             Deleniti, eveniet, quia.
                         </AppText>
                         <Experience />
+                        <Education />
                     </View>
                     <View style={styles.rightSide}>
                         <PersonalInfo />
+                        <Skills />
                     </View>
                 </View>
             </Page>

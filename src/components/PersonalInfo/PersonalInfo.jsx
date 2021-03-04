@@ -23,7 +23,7 @@ const PersonalInfo = () => (
     <>
         <SectionHeader title={'Personal info'} />
         {personalInfoData.map(entry => (
-            <PersonalInfoEntry {...entry} />
+            <PersonalInfoEntry key={entry.label} {...entry} />
         ))}
     </>
 );
