@@ -7,30 +7,28 @@ import {
     Education,
     Skills,
     Languages,
+    Footer,
 } from './components';
 import styles from './App.styles';
 import {AppText} from './components/common';
 
 const app = () => (
-    <PDFViewer
-        width={900}
-        height={1500}
-        style={{margin: '0 auto', display: 'block'}}
-    >
+    <PDFViewer width={900} height={1300} style={styles.pdfViewer}>
         <Document>
             <Page size="A4">
                 <Header />
                 <View style={styles.container}>
-                    <View style={styles.main}>
+                    <View style={styles.leftSide}>
                         <AppText style={styles.description}>
                             Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Animi dolorum, maxime nihil placeat quas sunt?
-                            Accusantium amet eum excepturi, expedita harum
-                            incidunt officia quidem quo suscipit tempore.
-                            Deleniti, eveniet, quia.
+                            elit. Ad adipisci cupiditate, dignissimos et eum
+                            harum incidunt, magni minima non numquam officiis
+                            omnis placeat quibusdam sapiente soluta totam,
+                            voluptas voluptatem voluptatum.
                         </AppText>
                         <Experience />
                         <Education />
+                        <Footer />
                     </View>
                     <View style={styles.rightSide}>
                         <PersonalInfo />

@@ -6,6 +6,7 @@ const styles = StyleSheet.create({
     },
     label: {
         fontFamily: 'Lato Bold',
+        fontSize: 10,
     },
     levelWrapper: {
         flexDirection: 'row',

@@ -21,6 +21,9 @@ const styles = StyleSheet.create({
     degree: {
         fontFamily: 'Lato',
     },
+    academy: {
+        fontFamily: 'Lato Italic',
+    },
 });
 
 export default styles;

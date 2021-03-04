@@ -6,8 +6,8 @@ import {AppText} from '../index';
 
 const BulletList = ({items}) => (
     <View>
-        {items.map(item => (
-            <BulletItem>{item}</BulletItem>
+        {items.map((item, index) => (
+            <BulletItem key={index}>{item}</BulletItem>
         ))}
     </View>
 );

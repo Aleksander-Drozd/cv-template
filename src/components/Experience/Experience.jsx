@@ -1,9 +1,6 @@
 import React from 'react';
 
-import styles from './Experience.styles';
-import {AppText} from '../common';
 import SectionHeader from '../common/SectionHeader/SectionHeader';
-import {View} from '@react-pdf/renderer';
 import ExperienceEntry from './ExperienceEntry/ExperienceEntry';
 
 const experienceData = [

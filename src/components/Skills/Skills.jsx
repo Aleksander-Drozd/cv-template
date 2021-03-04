@@ -22,7 +22,7 @@ const Skills = () => (
     <>
         <SectionHeader title={'Programming skills'} aside />
         {skillsData.map(entry => (
-            <SkillEntry {...entry} />
+            <SkillEntry key={entry.label} {...entry} />
         ))}
     </>
 );

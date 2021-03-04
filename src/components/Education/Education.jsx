@@ -1,6 +1,5 @@
 import React from 'react';
 
-import styles from './Education.styles';
 import {SectionHeader} from '../common';
 import EducationEntry from './EducationEntry/EducationEntry';
 

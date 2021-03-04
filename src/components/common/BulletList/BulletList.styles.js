@@ -10,6 +10,7 @@ const styles = StyleSheet.create({
     text: {
         width: '95%',
         fontSize: 11,
+        letterSpacing: 0.2,
     },
 });
 

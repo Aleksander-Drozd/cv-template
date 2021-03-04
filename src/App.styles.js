@@ -1,12 +1,15 @@
 import {StyleSheet} from '@react-pdf/renderer';
 
 const styles = StyleSheet.create({
+    pdfViewer: {
+        margin: '0 auto',
+        display: 'block',
+    },
     container: {
-        fontSize: 12,
         flexDirection: 'row',
         height: '100%',
     },
-    main: {
+    leftSide: {
         width: '70%',
         paddingVertical: 10,
         paddingHorizontal: 15,
