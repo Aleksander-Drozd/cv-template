@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
     },
     major: {
         fontFamily: 'Lato Bold',
-        fontSize: 12,
+        fontSize: 11,
         marginBottom: 2,
     },
     degree: {

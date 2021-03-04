@@ -10,7 +10,7 @@ const educationData = [
         academy: 'Harvard University',
         major: 'Computer science',
         degree: "Engineer's degree",
-        faculty: 'Faculty of Electronics',
+        achievements: ["Chancellor's Scholarship"],
     },
     {
         start: '2018',
@@ -18,7 +18,7 @@ const educationData = [
         academy: 'Harvard University',
         major: 'Computer science',
         degree: "Master's degree",
-        faculty: 'Faculty of Electronics',
+        achievements: ["Chancellor's Scholarship"],
     },
 ];
 

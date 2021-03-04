@@ -2,7 +2,7 @@ import {StyleSheet} from '@react-pdf/renderer';
 
 const styles = StyleSheet.create({
     wrapper: {
-        marginTop: 5,
+        marginTop: 8,
     },
     label: {
         fontFamily: 'Lato Bold',
