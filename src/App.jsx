@@ -6,13 +6,14 @@ import {
     PersonalInfo,
     Education,
     Skills,
+    Languages,
 } from './components';
 import styles from './App.styles';
 import {AppText} from './components/common';
 
 const app = () => (
     <PDFViewer
-        width={1000}
+        width={900}
         height={1500}
         style={{margin: '0 auto', display: 'block'}}
     >
@@ -34,6 +35,7 @@ const app = () => (
                     <View style={styles.rightSide}>
                         <PersonalInfo />
                         <Skills />
+                        <Languages />
                     </View>
                 </View>
             </Page>

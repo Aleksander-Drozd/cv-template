@@ -4,6 +4,9 @@ const styles = StyleSheet.create({
     wrapper: {
         marginTop: 10,
     },
+    aside: {
+        marginTop: 15,
+    },
     text: {
         fontFamily: 'Lato Bold',
         color: '#002e58',
